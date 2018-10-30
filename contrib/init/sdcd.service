@@ -1,0 +1,26 @@
+[Unit]
+Description=SDC's distributed currency daemon
+After=network.target
+
+[Service]
+User=sdc
+Group=sdc
+
+Type=forking
+PIDFile=/var/lib/sdcd/sdcd.pid
+
+ExecStart=/usr/bin/sdcd -daemon -pid=/var/lib/sdcd/sdcd.pid \
+          -conf=/etc/sdc/sdc.conf -datadir=/var/lib/sdcd
+
+ExecStop=-/usr/bin/sdc-cli -conf=/etc/sdc/sdc.conf \
+         -datadir=/var/lib/sdcd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

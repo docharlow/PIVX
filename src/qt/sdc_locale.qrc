@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/sdc_bg.qm</file>
+        <file alias="ca">locale/sdc_ca.qm</file>
+        <file alias="cs">locale/sdc_cs.qm</file>
+        <file alias="da">locale/sdc_da.qm</file>
+        <file alias="de">locale/sdc_de.qm</file>
+        <file alias="en">locale/sdc_en.qm</file>
+        <file alias="en_US">locale/sdc_en_US.qm</file>
+        <file alias="eo">locale/sdc_eo.qm</file>
+        <file alias="es">locale/sdc_es.qm</file>
+        <file alias="es_ES">locale/sdc_es_ES.qm</file>
+        <file alias="fi">locale/sdc_fi.qm</file>
+        <file alias="fr_FR">locale/sdc_fr_FR.qm</file>
+        <file alias="hi_IN">locale/sdc_hi_IN.qm</file>
+        <file alias="hr">locale/sdc_hr.qm</file>
+        <file alias="hr_HR">locale/sdc_hr_HR.qm</file>
+        <file alias="it">locale/sdc_it.qm</file>
+        <file alias="ja">locale/sdc_ja.qm</file>
+        <file alias="ko_KR">locale/sdc_ko_KR.qm</file>
+        <file alias="lt_LT">locale/sdc_lt_LT.qm</file>
+        <file alias="nl">locale/sdc_nl.qm</file>
+        <file alias="pl">locale/sdc_pl.qm</file>
+        <file alias="pt">locale/sdc_pt.qm</file>
+        <file alias="pt_BR">locale/sdc_pt_BR.qm</file>
+        <file alias="ro_RO">locale/sdc_ro_RO.qm</file>
+        <file alias="ru">locale/sdc_ru.qm</file>
+        <file alias="sk">locale/sdc_sk.qm</file>
+        <file alias="sv">locale/sdc_sv.qm</file>
+        <file alias="tr">locale/sdc_tr.qm</file>
+        <file alias="uk">locale/sdc_uk.qm</file>
+        <file alias="vi">locale/sdc_vi.qm</file>
+        <file alias="zh_CN">locale/sdc_zh_CN.qm</file>
+        <file alias="zh_TW">locale/sdc_zh_TW.qm</file>
+    </qresource>
+</RCC>

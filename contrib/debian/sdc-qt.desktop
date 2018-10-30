@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SDC
+Comment=SDC P2P Cryptocurrency
+Comment[fr]=SDC, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=SDC, eşten eşe kriptografik sanal para birimi
+Exec=sdc-qt %u
+Terminal=false
+Type=Application
+Icon=sdc128
+MimeType=x-scheme-handler/sdc;
+Categories=Office;Finance;
